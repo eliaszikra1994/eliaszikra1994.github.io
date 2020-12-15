@@ -1,0 +1,78 @@
+html {
+    height: 100%;
+    background-image: url(../img/index.svg);
+    background-repeat: no-repeat;
+    /* this applies to both images */
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    position: right;
+    color: #CBC2C2;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 10;
+    font-size: 8vw;
+    /* text-shadow: 0px 0px 8px #cbc2c2;*/
+}
+
+body {
+    margin-top: 10vw;
+    size: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+h4 {
+    z-index: 999;
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    color: #CBC2C2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 10;
+    font-size: 2vw;
+    /*text-shadow: 0px 0px 8px #cbc2c2;*/
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul {
+    margin-top: 8vw;
+    padding: 2vw;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.5vw;
+    padding: 1vw 2vw;
+    background-color: #ffffff60;
+    border-color: rgba(0, 0, 0, 0.377);
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 0.5vw;
+}
+
+nav a:hover {
+    color: white;
+    background-color: rgba(119, 119, 119, 0.445);
+    transition: all 0.3s ease 0s;
+}
